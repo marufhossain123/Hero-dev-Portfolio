@@ -19,9 +19,11 @@
     border-radius: 10px;
     /* color: white; */
     color:bisque;
+    cursor: pointer;
 }
 .btn a{
     color:aliceblue;
+    
 }
  /* main styles  */
  .logo{
@@ -32,8 +34,11 @@
     color: rgba(197, 19, 19, 0.827);
  }
 header{
-    background-color: burlywood;
+    background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png),  #FFF8F3 ;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     max-width: 1140px;
@@ -58,5 +63,40 @@ nav .list-item li a{
     font-size: 20px;
     text-decoration: none;
     /* color:black */
+
+}
+.banner{
+    /* border: 2px solid red; */
+    margin: 50px 40px 0px 230px;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner .banner-content{
+    max-width: 585px;
+}
+.banner .banner-content h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner .banner-content h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner .banner-content p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 
 }
